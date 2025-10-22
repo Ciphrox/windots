@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.bar.json",
+  "monitor": 0,
+  "font_family": "JetBrains Mono",
+  "theme": {
+    "palette": "Custom",
+    "accent": "Base0B",
+    "colours": {
+      "base_00": "#0d1110",
+      "base_01": "#121814",
+      "base_02": "#1a211e",
+      "base_03": "#232a28",
+      "base_04": "#5a726d",
+      "base_05": "#87a987",
+      "base_06": "#a7c080",
+      "base_07": "#c5e0c5",
+      "base_08": "#e67e80",
+      "base_09": "#e69875",
+      "base_0a": "#dbbc7f",
+      "base_0b": "#a7c080",
+      "base_0c": "#83c5be",
+      "base_0d": "#7fbbb3",
+      "base_0e": "#d699b6",
+      "base_0f": "#d3c6aa"
+    }
+  },
+  "transparency_alpha": 255,
+
+  "bar": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 13,
+    "height": 32,
+    "position": "top",
+    "margin": 6,
+    "border_radius": 14,
+    "background_color": "#0b1a0e",
+    "foreground_color": "#d6e9c6",
+    "spacing": 8,
+    "padding": {
+      "left": 10,
+      "right": 10,
+      "top": 3,
+      "bottom": 3
+    }
+  },
+
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": true
+        },
+        "layout": {
+          "enable": true
+        },
+        "focused_window": {
+          "enable": true,
+          "show_icon": true
+        }
+      }
+    }
+  ],
+  "center_widgets": [
+    {
+      "Media": {
+        "enable": true,
+        "show_album_art": false,
+        "truncate": true
+      }
+    }
+  ],
+
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Media": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Network": {
+        "enable": true,
+        "show_total_data_transmitted": true,
+        "show_network_activity": true
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
+      }
+    }
+  ]
+}

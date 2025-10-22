@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Hide",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 15,
+  "default_container_padding": 10,
+  "border": true,
+  "border_width": 3,
+  "border_offset": -1,
+  "border_radius": 5,
+  "theme": {
+    "palette": "Custom",
+    "accent": "Base0B",
+    "colours": {
+      "base_00": "#0d1110",
+      "base_01": "#121814",
+      "base_02": "#1a211e",
+      "base_03": "#232a28",
+      "base_04": "#5a726d",
+      "base_05": "#87a987",
+      "base_06": "#a7c080",
+      "base_07": "#c5e0c5",
+      "base_08": "#e67e80",
+      "base_09": "#e69875",
+      "base_0a": "#dbbc7f",
+      "base_0b": "#a7c080",
+      "base_0c": "#83c5be",
+      "base_0d": "#7fbbb3",
+      "base_0e": "#d699b6",
+      "base_0f": "#d3c6aa"
+    }
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 200,
+    "easing": "easeInOutCubic"
+  },
+  "transparency": true,
+
+  "monitors": [
+    {
+      "workspaces": [
+        { "name": "一", "layout": "BSP" },
+        { "name": "二", "layout": "VerticalStack" },
+        { "name": "三", "layout": "HorizontalStack" },
+        { "name": "四", "layout": "UltrawideVerticalStack" },
+        { "name": "五", "layout": "Rows" },
+        { "name": "六", "layout": "Grid" },
+        { "name": "七", "layout": "RightMainVerticalStack" }
+      ]
+    }
+  ],
+  "bar_config": "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.json"
+}

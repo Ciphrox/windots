@@ -1,5 +1,9 @@
 *
 
 !/komorebi/
+!/komorebi/**
+
 !/whkd
+!/whkd/**
+
 !.gitignore
