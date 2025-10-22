@@ -2,6 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.bar.json",
   "monitor": 0,
   "font_family": "JetBrains Mono",
+  "center_widget_padding": 200,
   "theme": {
     "palette": "Custom",
     "accent": "Base0B",
@@ -26,24 +27,6 @@
   },
   "transparency_alpha": 255,
 
-  "bar": {
-    "font_family": "JetBrainsMono Nerd Font",
-    "font_size": 13,
-    "height": 32,
-    "position": "top",
-    "margin": 6,
-    "border_radius": 14,
-    "background_color": "#0b1a0e",
-    "foreground_color": "#d6e9c6",
-    "spacing": 8,
-    "padding": {
-      "left": 10,
-      "right": 10,
-      "top": 3,
-      "bottom": 3
-    }
-  },
-
   "left_widgets": [
     {
       "Komorebi": {
@@ -63,22 +46,24 @@
   ],
   "center_widgets": [
     {
-      "Media": {
+      "Time": {
         "enable": true,
-        "show_album_art": false,
-        "truncate": true
+        "format": "TwelveHourWithoutSeconds",
+        "changing_icon": true,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Media": {
+        "enable": true
       }
     }
+    
   ],
 
   "right_widgets": [
     {
       "Update": {
-        "enable": true
-      }
-    },
-    {
-      "Media": {
         "enable": true
       }
     },
@@ -90,7 +75,7 @@
     {
       "Network": {
         "enable": true,
-        "show_total_data_transmitted": true,
+        "show_total_data_transmitted": false,
         "show_network_activity": true
       }
     },
@@ -98,12 +83,6 @@
       "Date": {
         "enable": true,
         "format": "DayDateMonthYear"
-      }
-    },
-    {
-      "Time": {
-        "enable": true,
-        "format": "TwentyFourHour"
       }
     },
     {
