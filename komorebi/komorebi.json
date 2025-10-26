@@ -33,8 +33,7 @@
   },
   "animation": {
     "enabled": true,
-    "duration": 100,
-    "easing": "easeInOutCubic"
+    "duration": 100
   },
   "transparency": true,
 
@@ -47,7 +46,8 @@
         { "name": "四", "layout": "UltrawideVerticalStack" },
         { "name": "五", "layout": "Rows" },
         { "name": "六", "layout": "Grid" },
-        { "name": "七", "layout": "RightMainVerticalStack" }
+        { "name": "七", "layout": "RightMainVerticalStack" },
+        { "name": "八", "layout": "Columns" }
       ]
     }
   ],
