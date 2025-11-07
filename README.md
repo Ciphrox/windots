@@ -3,8 +3,16 @@
 ## 1. Tell komorebi & whkd where to look for config files
 
 ```powershell
-$Env:KOMOREBI_CONFIG_HOME = "$Env:USERPROFILE\.config\komorebi"
-$Env:WHKD_CONFIG_HOME = "$Env:USERPROFILE\.config\whkd"
+[Environment]::SetEnvironmentVariable(
+     'KOMOREBI_CONFIG_HOME',
+     (Join-Path $env:USERPROFILE '.config\komorebi'),
+     'User')
+
+[Environment]::SetEnvironmentVariable(
+    'WHKD_CONFIG_HOME',
+    (Join-Path $env:USERPROFILE '.config\whkd'),
+    'User')
+
 ```
 
 ## 2. Pull the dot-files into your home folder (no extra sub-dir)
