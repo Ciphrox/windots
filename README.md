@@ -1,4 +1,4 @@
-# Run the following in the `Powershell`
+# Run the following in the `Powershell` as `Administrator`
 
 ## 1. Tell komorebi & whkd where to look for config files
 
