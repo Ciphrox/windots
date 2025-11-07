@@ -40,14 +40,14 @@
   "monitors": [
     {
       "workspaces": [
-        { "name": "一", "layout": "BSP" },
+        { "name": "一", "layout": "UltrawideVerticalStack" },
         { "name": "二", "layout": "VerticalStack" },
-        { "name": "三", "layout": "HorizontalStack" },
+        { "name": "三", "layout": "UltrawideVerticalStack" },
         { "name": "四", "layout": "UltrawideVerticalStack" },
-        { "name": "五", "layout": "Rows" },
+        { "name": "五", "layout": "Columns" },
         { "name": "六", "layout": "Grid" },
         { "name": "七", "layout": "RightMainVerticalStack" },
-        { "name": "八", "layout": "Columns" }
+        { "name": "八", "layout": "UltrawideVerticalStack" }
       ]
     }
   ],
