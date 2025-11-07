@@ -18,6 +18,6 @@
 ## 2. Pull the dot-files into your home folder (no extra sub-dir)
 
 ```powershell
-cd $env:USERPROFILE
+cd $env:USERPROFILE/.config
 git clone https://github.com/Ciphrox/komorebi-config-files/ .
 ```
