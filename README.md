@@ -1,7 +1,8 @@
-# Run the following in the `Powershell` as `Administrator`
+# Run the following in the `Powershell`
 
 ## 1. Tell komorebi & whkd where to look for config files
 
+> Run this as Administrator Powershell
 ```powershell
 [Environment]::SetEnvironmentVariable(
      'KOMOREBI_CONFIG_HOME',
