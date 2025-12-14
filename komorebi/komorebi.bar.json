@@ -5,24 +5,24 @@
   "center_widget_padding": 200,
   "theme": {
     "palette": "Custom",
-    "accent": "Base0B",
+    "accent": "Base0A",
     "colours": {
-      "base_00": "#0d1110",
-      "base_01": "#121814",
-      "base_02": "#1a211e",
-      "base_03": "#232a28",
-      "base_04": "#5a726d",
-      "base_05": "#87a987",
-      "base_06": "#a7c080",
-      "base_07": "#c5e0c5",
-      "base_08": "#e67e80",
-      "base_09": "#e69875",
-      "base_0a": "#dbbc7f",
-      "base_0b": "#a7c080",
-      "base_0c": "#83c5be",
-      "base_0d": "#7fbbb3",
-      "base_0e": "#d699b6",
-      "base_0f": "#d3c6aa"
+      "base_00": "#0e1017",
+      "base_01": "#161924",
+      "base_02": "#23293b",
+      "base_03": "#3e465e",
+      "base_04": "#5b6685",
+      "base_05": "#c0c8d8",
+      "base_06": "#e4e8f0",
+      "base_07": "#ffffff",
+      "base_08": "#e06c75",
+      "base_09": "#e69b75",
+      "base_0a": "#fad07b",
+      "base_0b": "#8eb38e",
+      "base_0c": "#89c2c9",
+      "base_0d": "#6d88b0",
+      "base_0e": "#b48ead",
+      "base_0f": "#9e846e"
     }
   },
   "transparency_alpha": 255,
@@ -58,7 +58,6 @@
         "enable": true
       }
     }
-    
   ],
 
   "right_widgets": [

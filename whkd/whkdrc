@@ -10,7 +10,7 @@ alt + i                 : komorebic toggle-shortcuts
 # App shortcuts - these require shell to be pwsh / powershell
 # The apps will be focused if open, or launched if not open
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
-# alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
+alt + b                 : if ($wshell.AppActivate('Zen') -eq $False) { start zen }
 
 alt + q                 : komorebic close
 alt + m                 : komorebic minimize
@@ -51,7 +51,7 @@ alt + f                 : komorebic toggle-monocle
 
 # Window manager options
 alt + shift + r         : komorebic retile
-alt + p                 : komorebic toggle-pause
+# alt + p                 : komorebic toggle-pause
 
 # Layouts
 alt + x                 : komorebic flip-layout horizontal
