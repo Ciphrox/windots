@@ -8,5 +8,8 @@
 
 !/yasb/
 !/yasb/**
+/yasb/*.log
+/yasb/*.log.*
+
 
 !.gitignore

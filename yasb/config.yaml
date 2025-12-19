@@ -1,6 +1,10 @@
 watch_stylesheet: true
 watch_config: true
 debug: false
+komorebi:
+  start_command: "komorebic start --whkd"
+  stop_command: "komorebic stop --whkd"
+  reload_command: "komorebic stop --whkd && komorebic start --whkd"
 bars:
   status-bar:
     enabled: true
@@ -88,28 +92,36 @@ widgets:
     options:
       hide_if_offline: false
       label: "{icon}"
-      layouts: ['bsp', 'columns', 'rows', 'grid', 'vertical_stack', 'horizontal_stack', 'ultrawide_vertical_stack']
+      layouts:
+        - bsp
+        - columns
+        - rows
+        - grid
+        - vertical_stack
+        - horizontal_stack
+        - ultrawide_vertical_stack
+
       layout_icons:
-        bsp: "[BSP]"
-        columns: "[Columns]"
-        rows: "[Rows]"
-        grid: "[Grifasdd]"
-        vertical_stack: "[Vertical Stack]"
-        horizontal_stack: "[Horizontal Stack]"
-        ultrawide_vertical_stack: "[Ultrawide Vertical Stack]"
-        monocle: "[monocle]"
-        maximised: "[Maximised]"
-        floating: "[Floating]"
-        paused: "[paused]"
+        bsp: "BSP"
+        columns: "Column |||"
+        rows: "Row \u2261"
+        vertical_stack: "Vertical ||="
+        horizontal_stack: "Horizontal"
+        ultrawide_vertical_stack: "UltraWide"
+        grid: "Grid"
+        monocle: "Monocle"
+        paused:  "⏸"
       callbacks:
         on_left: "next_layout"
         on_middle: "toggle_monocle"
-        on_right: "prev_layout" 
-      container_padding: 
+        on_right: "prev_layout"
+
+      container_padding:
         top: 0
         left: 8
         bottom: 0
-        right: 8 
+        right: 8
+
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
@@ -124,10 +136,10 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a %d %b %H:%M}"
-      label_alt: "{%A, %d %B %Y, %H:%M}"
+      label: "{%a %d %b %I:%M %p}"
+      label_alt: "{%A, %d %B %Y, %I:%M %p}"
       locale: "en_US" # Langugae for date, you can set your own, example fr_FR
-      timezones: ["Europe/Warsaw", "America/New_York", "America/Los_Angeles"] #Looking up time zone info from registry
+      timezones: ["Asia/Kolkata"] #Looking up time zone info from registry
       #timezones: ["America/Montreal"]
       callbacks:
         on_middle: "next_timezone"
@@ -181,7 +193,7 @@ widgets:
         direction: "down"
         icon_size: 64
         show_hourly_forecast: true # Set to False to disable hourly forecast
-        time_format: "24h" # can be 12h or 24h
+        time_format: "12h" # can be 12h or 24h
         hourly_point_spacing: 76
         hourly_icon_size: 32 # better to set 16, 32 or 64 for better quality
         icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
@@ -360,7 +372,7 @@ widgets:
       callbacks:
         on_left: "toggle_group"
         on_middle: "toggle_label"
-        # on_right: "exec explorer C:\\" # Open disk C in file explorer
+        on_right: "exec explorer C:\\" # Open disk C in file explorer
       disk_thresholds:
         low: 25
         medium: 50
@@ -369,7 +381,7 @@ widgets:
     type: "yasb.traffic.TrafficWidget"
     options:
       label: "\uF1EB"
-      label_alt: "<span>\udb83\udc9d</span> \ueab4 {download_speed} | \ueab7 {upload_speed}"
+      label_alt: "\uf1eb    \ueab4 {download_speed} | \ueab7 {upload_speed}"
       update_interval: 1000
       menu:
         blur: true
