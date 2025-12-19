@@ -1,0 +1,156 @@
+2025-12-19 13:48:12,774 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:48:12,775 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:48:12,775 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:48:13,382 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:48:14,197 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:48:14,200 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:48:14,201 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:48:14,202 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:48:14,233 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-43ba127f-dcb3-11f0-a53a-a83b76d520fe
+2025-12-19 13:48:14,286 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:48:14,296 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:48:14,503 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:48:14,515 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:48:14,527 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-43ba127f-dcb3-11f0-a53a-a83b76d520fe
+2025-12-19 13:48:14,581 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-19 13:48:14,601 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:48:14,619 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:48:14,636 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:48:50,387 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:48:50,388 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:48:50,388 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:48:50,994 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:48:51,621 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:48:51,624 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:48:51,624 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:48:51,625 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:48:51,637 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-5a087703-dcb3-11f0-bfec-a83b76d520fe
+2025-12-19 13:48:51,686 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:48:51,687 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:48:51,763 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-5a087703-dcb3-11f0-bfec-a83b76d520fe
+2025-12-19 13:48:51,862 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:48:51,872 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:48:51,903 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-19 13:48:51,960 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:48:52,103 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:48:52,105 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 465616
+2025-12-19 13:48:52,121 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49347
+2025-12-19 13:48:52,145 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-12-19 13:48:52.144983
+2025-12-19 13:48:52,196 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:49:10,999 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:49:11,003 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:49:11,008 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:49:11,011 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:51:06,369 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:51:06,372 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:51:06,374 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:51:06,377 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:54:01,511 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:54:01,511 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:54:01,511 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:54:01,512 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-19 13:54:01,746 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:54:01,747 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:54:01,747 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:54:01,747 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-19 13:54:39,088 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:54:39,088 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:54:39,088 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:54:39,089 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-19 13:54:39,596 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:54:39,596 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:54:39,597 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:54:39,597 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-19 13:54:42,621 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-19 13:54:42,736 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-19 13:54:42,736 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-19 13:54:42,745 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-19 13:54:42,875 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-19 13:54:42,875 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-19 13:54:42,876 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-12-19 13:54:42,879 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-19 13:54:42,880 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:54:42,881 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 465616
+2025-12-19 13:54:42,908 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-19 13:54:42,920 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-19 13:54:42,923 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-19 13:54:42,936 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-19 13:54:42,968 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 465616
+2025-12-19 13:54:43,176 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:54:43,177 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:54:43,177 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:54:43,966 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:54:44,839 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:54:44,843 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:54:44,843 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:54:44,844 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:54:44,844 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-2c9156da-dcb4-11f0-a135-a83b76d520fe
+2025-12-19 13:54:44,910 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:54:44,912 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:54:44,967 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-2c9156da-dcb4-11f0-a135-a83b76d520fe
+2025-12-19 13:54:45,087 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:54:45,097 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:54:45,171 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:54:45,185 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:55:05,062 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:55:05,062 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:55:05,062 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:55:05,063 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-19 13:55:24,877 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:55:24,878 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:55:24,878 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:55:25,480 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:55:26,225 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:55:26,228 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:55:26,229 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:55:26,229 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:55:26,266 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-453c6142-dcb4-11f0-b0f2-a83b76d520fe
+2025-12-19 13:55:26,303 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:55:26,308 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:55:26,488 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-453c6142-dcb4-11f0-b0f2-a83b76d520fe
+2025-12-19 13:55:26,488 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:55:26,501 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:55:26,554 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-19 13:55:26,583 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:55:26,583 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:55:26,673 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:55:37,226 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:55:37,227 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:55:37,227 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:55:37,818 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:55:38,487 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:55:38,490 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:55:38,491 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:55:38,491 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:55:38,512 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-4c8b6dd2-dcb4-11f0-91b2-a83b76d520fe
+2025-12-19 13:55:38,545 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:55:38,546 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:55:38,628 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-4c8b6dd2-dcb4-11f0-91b2-a83b76d520fe
+2025-12-19 13:55:38,724 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:55:38,734 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:55:38,770 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-19 13:55:38,922 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:55:39,008 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:56:52,936 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:56:53,550 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:56:57,051 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:56:57,690 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5
+2025-12-19 13:57:16,120 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-19 13:57:16,120 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-19 13:57:16,120 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-19 13:57:16,734 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-19 13:57:17,434 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-19 13:57:17,440 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-19 13:57:17,440 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-19 13:57:17,441 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ciphr\.config\yasb
+2025-12-19 13:57:17,453 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-8785cf54-dcb4-11f0-b1fa-a83b76d520fe
+2025-12-19 13:57:17,519 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-19 13:57:17,520 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-19 13:57:17,527 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-19 13:57:17,730 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-8785cf54-dcb4-11f0-b1fa-a83b76d520fe
+2025-12-19 13:57:17,731 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ciphr\AppData\Local\YASB\systray_state_BOENE173QHMNZ2.json
+2025-12-19 13:57:17,743 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-19 13:57:17,797 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-19 13:57:17,825 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-19 13:57:17,844 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-19 13:57:17,930 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 18216. Err: 5

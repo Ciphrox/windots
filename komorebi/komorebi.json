@@ -33,9 +33,15 @@
   },
   "animation": {
     "enabled": true,
-    "duration": 100
+    "duration": 450,
+    "fps": 240,
+    "style": {
+      "movement" : "EaseOutExpo",
+      "transparency" : "Linear"
+    }
   },
   "transparency": true,
+  "transparency_alpha" : 250,
 
   "monitors": [
     {

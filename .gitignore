@@ -6,4 +6,7 @@
 !/whkd
 !/whkd/**
 
+!/yasb/
+!/yasb/**
+
 !.gitignore
