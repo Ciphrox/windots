@@ -60,7 +60,7 @@ Set the configuration paths for `komorebi` and `whkd`. Run the following in **Ad
 mkdir -Force "$env:APPDATA/dotfiles"
 
 # Clone repository
-git clone https://github.com/Ciphrox/win_dotfiles.git "$env:APPDATA/dotfiles"
+git clone https://github.com/Ciphrox/windots.git "$env:APPDATA/dotfiles"
 
 # Link configurations
 tuckr add windots
@@ -71,10 +71,10 @@ tuckr add windots
 1. Clone the repository:
 
    ```powershell
-   git clone https://github.com/Ciphrox/win_dotfiles.git
+   git clone https://github.com/Ciphrox/windots.git
    ```
 
-2. Copy the contents of `win_dotfiles/Configs/windots/*` to your `C:/Users/<username>/*`/ directory
+2. Copy the contents of `windots/Configs/windots/*` to your `C:/Users/<username>/*`/ directory
 
 ## 🏃 Usage
 
