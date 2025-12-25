@@ -20,7 +20,7 @@ bars:
       round_corners: true
       border_color: None
     window_flags:
-      always_on_top: true
+      always_on_top: false
       windows_app_bar: true
     dimensions:
       width: "100%"
@@ -42,6 +42,7 @@ bars:
           "volume",
           "settings",
           "notifications",
+          "wallpapers",
           "power_menu",
         ]
 widgets:
@@ -478,3 +479,25 @@ widgets:
         style: "left" # can be "left", "right", "bounce", "bounce-ease"
         separator: "    |    "
         label_padding: 10
+
+  wallpapers:
+    type: "yasb.wallpapers.WallpapersWidget"
+    options:
+      label: "<span>\uf03e</span>"
+      image_path: "V:\\Wallpapers"
+      change_automatically: false 
+      update_interval: 60 
+      gallery:
+        enabled: true 
+        blur: true
+        image_width: 220
+        image_per_page: 6
+        show_buttons: false
+        orientation: "portrait"
+        image_spacing: 8
+        lazy_load: true
+        lazy_load_delay: 80
+        lazy_load_fadein: 400
+        image_corner_radius: 20
+        enable_cache: true
+

@@ -1,15 +1,2 @@
-*
-
-!/komorebi/
-!/komorebi/**
-
-!/whkd
-!/whkd/**
-
-!/yasb/
-!/yasb/**
-/yasb/*.log
-/yasb/*.log.*
-
-
-!.gitignore
+/.config/yasb/*.log
+/.config/yasb/*.log.*

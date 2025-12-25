@@ -98,58 +98,7 @@
   font-size: var(--text-xl);
 }
 
-/* komorebi */
-/* 
-.komorebi-workspaces .widget-container {
-    margin-left: 0px;
-}
-.komorebi-workspaces .widget-container {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-left: none
-}
-.komorebi-workspaces .offline-status {
-    color: var(--subtext1);
-    font-size: 12px;
-    padding: 0 0px;
-    font-weight: 600;
-}
-.komorebi-workspaces .ws-btn {
-    border: none;
-    background-color: var(--surface1);
-    margin: 0 3px;
-    width: 10px;
-    height: 10px;
-    border-radius: 4px;
-    color: rgba(0, 0, 0, 0);
-}
-.komorebi-workspaces .ws-btn:hover {
-    color: rgba(0, 0, 0, 0);
-    background-color: var(--surface2);
-}
-.komorebi-workspaces .ws-btn.populated:hover {
-    color: rgba(0, 0, 0, 0);
-    background-color: var(--overlay1);
-}
-.komorebi-workspaces .ws-btn.populated {
-    color: rgba(0, 0, 0, 0);
-    background-color: var(--overlay0);
-}
-.komorebi-workspaces .ws-btn.active {
-    color: rgba(0, 0, 0, 0);
-    background-color: var(--subtext0);
-    width: 28px;
-    height: 10px;
-}
-.komorebi-active-layout {
-    padding: 0 0px 0 0;
-}
-
-.komorebi-active-layout .label {
-    font-weight: 600;
-    padding: 2px 0 0 0;
-} */
-
+/* --- Komorebi Active Layout --- */
 .komorebi-active-layout {
     padding: 0 4px;
 }
