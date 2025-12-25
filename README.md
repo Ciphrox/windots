@@ -43,7 +43,7 @@ Clone the repository and create symlinks:
 
 ```powershell
 # Clone the repo
-git clone https://github.com/Ciphrox/win_dotfiles
+git clone https://github.com/Ciphrox/win_dotfiles.git
 cd win_dotfiles
 
 # Create symlinks
