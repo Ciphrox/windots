@@ -43,8 +43,8 @@ Clone the repository and create symlinks:
 
 ```powershell
 # Clone the repo
-git clone https://github.com/Ciphrox/komorebi-config-files
-cd komorebi-config-files
+git clone https://github.com/Ciphrox/win_dotfiles
+cd win_dotfiles
 
 # Create symlinks
 dploy stow . $ENV:USERPROFILE\
